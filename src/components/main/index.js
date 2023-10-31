@@ -1,0 +1,21 @@
+import { Routes, Route} from 'react-router-dom'
+import Chat from '../chat';
+import Home from '../home';
+//import SmartHouse from '../smart-house';
+import TestAPI from '../test-api';
+import styles from './style.module.css'
+
+const Main = () => {
+    return(
+        <div className={styles.container}>
+            <Routes>
+                <Route exact path='/' element={<Home/>}/>
+                <Route path='/chat' element={<Chat/>}/>
+                <Route path='/test' element={<TestAPI/>}/>
+               {/* <Route path='/smart' element={<SmartHouse/>}/>*/}
+            </Routes>
+        </div>
+    )
+}
+
+export default Main

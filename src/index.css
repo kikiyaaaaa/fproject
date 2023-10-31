@@ -1,0 +1,12 @@
+body {
+  background-color:rgba(149, 199, 227, 0.438) ;
+  margin: 0;
+  font-family: 'Castoro Titling', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto Mono', monospace;
+}
+
+code {
+  font-family: 'Roboto Mono', monospace;
+}

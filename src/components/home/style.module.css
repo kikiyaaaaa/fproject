@@ -1,0 +1,25 @@
+.home{
+    align-items: center;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px;
+    border-color: white;
+}
+
+.b{
+    background-color: lavender;
+    border: 2px solid rgb(184, 184, 243);
+    margin-left: 95px;
+    width: 90px;
+    border-radius: 25px;
+}
+
+.a{
+    background-color: lavender;
+    border: 2px solid rgb(184, 184, 243);
+    width: 90px;
+    margin-left: 10px;
+    border-radius: 25px;
+}
